@@ -92,6 +92,18 @@ a:hover {
 
 header {
   background: var(--dark);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  padding: 15px 25px;
+
 }
 
 header a {
@@ -330,5 +342,9 @@ a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
+}
+
+.about-description {
+  font-size: 35px;
 }
 
