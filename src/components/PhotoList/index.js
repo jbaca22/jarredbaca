@@ -7,26 +7,26 @@ const PhotoList = ({ category }) => {
 			name: 'Run Buddy Website',
 			category: 'projects',
 			description: 'A project where I used pure  and CSS to create a running blog',
-			link: 'https://github.com/',
+			link: 'https://jbaca22.github.io/Run-Buddy/',
 		},
 
 		{
 			name: 'Game Finder',
 			category: 'projects',
 			description: 'A project using javascript that lets you find a new video game to play!',
-			link: 'https://github.com/',
+			link: 'https://gray-turtle.github.io/game-finder/quiz.html',
 		},
 		{
 			name: 'Business Website',
 			category: 'projects',
 			description:'a website built for an esthetician business',
-			link: 'https://github.com/',
+			link: 'https://jbaca22.github.io/skinsalvation/',
 		},
 		{
 			name: 'Work Day Scheduler',
 			category: 'projects',
 			description: 'A simple scheduler designed to help keep peopl organized',
-			link: 'https://github.com/',
+			link: 'https://jbaca22.github.io/Work-Day-Scheduler/',
 		},
 	]);
 
