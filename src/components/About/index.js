@@ -1,9 +1,13 @@
 import React from 'react';
+import coverPhoto from '../../assets/photos/qawerf.jpg'
 
-function About(props) {
+function About() {
 
     return (
-		<div></div>
+      <section>
+        <h1 id="about">Who am I?</h1>
+        <img src={coverPhoto} className="my-2" style={{ width: "100%" }}  alt="cover" />
+      </section>
     );
 }
 

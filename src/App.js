@@ -3,14 +3,14 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import About from './components/About';
-import './App.css';
+
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
     {
-      name: 'Portfolio',
-      description: 'Check out my projects!',
+      name: 'projects',
+      description: 'Projects made with html',
     },
   ]);
 
