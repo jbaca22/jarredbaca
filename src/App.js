@@ -10,7 +10,7 @@ function App() {
   const [categories] = useState([
     {
       name: 'projects',
-      description: 'Projects made with html',
+      description: 'Projects made with HTML, CSS and Javascript',
     },
   ]);
 
